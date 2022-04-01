@@ -232,6 +232,7 @@ body {
                             color: #51c2be;
                             font-weight: 500;
                             text-decoration: none;
+                            overflow: hidden;
                         }
                         button {
                             width: 90%;
@@ -364,6 +365,7 @@ body {
             width: 100%;
             height: fit-content;
             background-image: url(../images/bg-boost-mobile.svg);
+            background-size: cover;
             background-color: #3a3053;
             .container {
                 width: 100%;
@@ -644,7 +646,6 @@ body {
             }
             .boost {
                 background-image: url(../images/bg-boost-desktop.svg);
-                background-size: cover;
                 .container {
                     width: 900px;
                     padding: 3rem 1rem;
