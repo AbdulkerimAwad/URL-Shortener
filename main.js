@@ -95,3 +95,10 @@ document.addEventListener("click", (e) => {
 function copyLink(btnObject) {
   navigator.clipboard.writeText(btnObject.previousElementSibling.textContent);
 }
+
+document.getElementById("go-to-tool").addEventListener("click", () => {
+  window.scrollTo({
+    top: +document.getElementById("shortener-tool").offsetTop - 20,
+    behavior: "smooth",
+  });
+});
