@@ -2,7 +2,6 @@
 *.xd
 *.fig
 .DS_Store
-
 design/
 styles/style.scss
 styles/_global-rules.scss
@@ -10,3 +9,4 @@ images/icon-facebook.svg
 images/icon-instagram.svg
 images/icon-pinterest.svg
 images/icon-twitter.svg
+js/main.js
